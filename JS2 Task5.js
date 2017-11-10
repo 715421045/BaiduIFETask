@@ -128,7 +128,7 @@ function headToLef(td){
     if (num == 180) {
         tRight(td);
     }
-    setTimeout(go(td),5000);    
+     setTimeout(function(){go(td)},150);    
 }
 function headToRig(td){
     var num =getNumDeg(td);
@@ -141,7 +141,7 @@ function headToRig(td){
     if (num == 270) {
         tBack(td);
     }
-    setTimeout(go(td),5000);
+     setTimeout(function(){go(td)},150);
 }
 function headToTop(td){
     var num =getNumDeg(td);
@@ -154,7 +154,7 @@ function headToTop(td){
     if (num == 270) {
         tRight(td);
     }
-    setTimeout(go(td),5000);
+     setTimeout(function(){go(td)},150);
 }
 function headToBot(td){
     var num =getNumDeg(td);
@@ -167,7 +167,7 @@ function headToBot(td){
     if (num == 270) {
         tLeft(td);
     }
-    setTimeout(go(td),5000);
+     setTimeout(function(){go(td)},150);
 }
 
 
